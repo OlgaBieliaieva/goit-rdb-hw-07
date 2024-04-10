@@ -1,0 +1,4 @@
+USE hw_3;
+
+SELECT SUM(date BETWEEN '1996-07-10 00:00:00' AND '1996-10-08 00:00:00') AS orders_count
+FROM orders;
